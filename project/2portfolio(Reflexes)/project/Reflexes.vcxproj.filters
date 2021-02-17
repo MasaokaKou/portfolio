@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{cd96f04e-d78f-47c0-b202-99aa25116e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\system">
+      <UniqueIdentifier>{20fde32f-7f6a-403c-b35d-0dc271ba88a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\game">
+      <UniqueIdentifier>{aa2ec660-f3fd-40de-8a3d-d09c188b52ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{a54e1883-6a99-44b5-ada5-e046e420c99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\scene">
+      <UniqueIdentifier>{d1e25d7f-fa9a-4a60-9206-f047e24be74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\task">
+      <UniqueIdentifier>{0e5834a2-b039-494a-8b59-558d9a29de00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Hit.cpp">
+      <Filter>source\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector2.cpp">
+      <Filter>source\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneGame.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneTitle.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneResult.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TaskManager.cpp">
+      <Filter>source\task</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base.cpp">
+      <Filter>source\task</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Question.cpp">
+      <Filter>source\task</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Selecter.cpp">
+      <Filter>source\task</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Effect.cpp">
+      <Filter>source\task</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimeLimit.cpp">
+      <Filter>source\task</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Score.cpp">
+      <Filter>source\task</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneManager.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SceneRanking.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Hit.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Main.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector2.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\precompile.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneGame.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneTitle.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneResult.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TaskManager.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Typedef.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Question.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Include.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Selecter.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Effect.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Score.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TimeLimit.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneManager.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneRanking.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
