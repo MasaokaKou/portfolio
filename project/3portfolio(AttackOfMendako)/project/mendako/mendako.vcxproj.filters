@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{cd96f04e-d78f-47c0-b202-99aa25116e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{a54e1883-6a99-44b5-ada5-e046e420c99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\system">
+      <UniqueIdentifier>{c962c6c5-a3bc-4ad6-bacc-6fa8f40de558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\system">
+      <UniqueIdentifier>{394142db-1d56-44bb-a975-eb9df096da7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\game">
+      <UniqueIdentifier>{a8873866-439e-45a6-a072-3dd4af2d6ac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\game\unit">
+      <UniqueIdentifier>{2b71d42e-75f4-4b14-8f77-40fcf777a866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\game\enemy">
+      <UniqueIdentifier>{d7b21815-abbc-46d5-8351-c5655491cb8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\game\task">
+      <UniqueIdentifier>{acd48527-4ff8-4835-aae4-9f6cd42720b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\game\scene">
+      <UniqueIdentifier>{98a896f2-227e-4e03-a6c8-58f8685422e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\main">
+      <UniqueIdentifier>{330806fa-7a89-49ad-849c-ff8f1c6ad146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\game">
+      <UniqueIdentifier>{4d2c3d4a-34b1-435a-b648-ea29b3bb4d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\game\scene">
+      <UniqueIdentifier>{07e19993-f8a1-445d-b53a-03975fe55dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\game\task">
+      <UniqueIdentifier>{0e5834a2-b039-494a-8b59-558d9a29de00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\game\task\object">
+      <UniqueIdentifier>{88202733-cd52-48a7-9e89-4e3a8865b1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\game\task\object\factory">
+      <UniqueIdentifier>{ab45d045-7397-469b-82e3-57ce96646ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\game\task\object\base">
+      <UniqueIdentifier>{acb969d4-9f0a-4fac-96e1-a1f039bd46d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\game\UI">
+      <UniqueIdentifier>{ff61350f-1b12-4d2c-8254-edca9c5f1d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\game\task\object\unit">
+      <UniqueIdentifier>{e0a9079a-d22d-4854-8d34-c33f85294b22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>source\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\taskManager.cpp">
+      <Filter>source\game\task</Filter>
+    </ClCompile>
+    <ClCompile Include="src\objBase.cpp">
+      <Filter>source\game\task\object\base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sceneGame.cpp">
+      <Filter>source\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>source\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\precompile.cpp">
+      <Filter>source\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\debug.cpp">
+      <Filter>source\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>source\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.cpp">
+      <Filter>source\main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\factoryBase.cpp">
+      <Filter>source\game\task\object\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\factoryManager.cpp">
+      <Filter>source\game\task\object\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\factoryTypeA.cpp">
+      <Filter>source\game\task\object\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\factoryTypeB.cpp">
+      <Filter>source\game\task\object\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\factoryTypeC.cpp">
+      <Filter>source\game\task\object\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mainFactory.cpp">
+      <Filter>source\game\task\object\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stageSelector.cpp">
+      <Filter>source\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\uiManager.cpp">
+      <Filter>source\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unitSelector.cpp">
+      <Filter>source\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hpBar.cpp">
+      <Filter>source\game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sceneTitle.cpp">
+      <Filter>source\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tutorial.cpp">
+      <Filter>source\game\task</Filter>
+    </ClCompile>
+    <ClCompile Include="src\effect.cpp">
+      <Filter>source\system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unitBase.cpp">
+      <Filter>source\game\task\object\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unitManager.cpp">
+      <Filter>source\game\task\object\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unitTypeB.cpp">
+      <Filter>source\game\task\object\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unitTypeC.cpp">
+      <Filter>source\game\task\object\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unitTypeD.cpp">
+      <Filter>source\game\task\object\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unitTypeA.cpp">
+      <Filter>source\game\task\object\unit</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sceneClear.cpp">
+      <Filter>source\game\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sceneGameClear.cpp">
+      <Filter>source\game\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\debug.h">
+      <Filter>header\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\main.h">
+      <Filter>header\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>header\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\factoryBase.h">
+      <Filter>header\game\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\factoryManager.h">
+      <Filter>header\game\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\factoryTypeA.h">
+      <Filter>header\game\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\factoryTypeB.h">
+      <Filter>header\game\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\factoryTypeC.h">
+      <Filter>header\game\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game.h">
+      <Filter>header\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unitBase.h">
+      <Filter>header\game\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unitManager.h">
+      <Filter>header\game\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unitTypeA.h">
+      <Filter>header\game\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unitTypeB.h">
+      <Filter>header\game\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unitTypeC.h">
+      <Filter>header\game\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unitTypeD.h">
+      <Filter>header\game\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model.h">
+      <Filter>header\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hpBar.h">
+      <Filter>header\game\task</Filter>
+    </ClInclude>
+    <ClInclude Include="src\objBase.h">
+      <Filter>header\game\task</Filter>
+    </ClInclude>
+    <ClInclude Include="src\precompile.h">
+      <Filter>header\game\task</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sceneTitle.h">
+      <Filter>header\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stageSelector.h">
+      <Filter>header\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mainFactory.h">
+      <Filter>header\game\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TestEffect.h">
+      <Filter>header\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tutorial.h">
+      <Filter>header\game\task</Filter>
+    </ClInclude>
+    <ClInclude Include="src\taskManager.h">
+      <Filter>header\game\task</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unitSelector.h">
+      <Filter>header\game\task</Filter>
+    </ClInclude>
+    <ClInclude Include="src\typedef.h">
+      <Filter>header\system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\uiManager.h">
+      <Filter>header\game\task</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sceneGame.h">
+      <Filter>header\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sceneClear.h">
+      <Filter>header\game\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sceneGameClear.h">
+      <Filter>header\game\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
